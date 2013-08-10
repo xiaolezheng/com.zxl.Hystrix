@@ -48,5 +48,6 @@ public class CommandHelloWorld extends HystrixCommand<String> {
 		log.debug("run2 result is {} in time: {}", s2);
 
 		log.debug(command.getClass().getSimpleName());
+		log.debug(command.getClass().getSimpleName());
 	}
 }
